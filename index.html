@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Pankaj Kangule - Full-Stack Java Developer" />
+  <meta name="keywords" content="Pankaj Kangule, Java Developer, Full Stack, Portfolio" />
+  <meta name="author" content="Pankaj Kangule" />
+
+  <title>Pankaj Kangule | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- JavaScript -->
+  <script src="js/main.js" defer></script>
+
+  <style>
+    body {
+      background: linear-gradient(to right top, #e0f7fa, #e3f2fd);
+      background-attachment: fixed;
+    }
+    .landing-section {
+      background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(240,248,255,0.8));
+      border-radius: 1rem;
+      margin: 2rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Pankaj Kangule</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <a href="assets/resume/Resume.pdf" download class="btn">Download Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <main>
+    <section id="home" class="landing-section">
+      <div class="landing-content">
+        <h1>Hello, I'm <span class="highlight">Pankaj Kangule</span></h1>
+        <p class="tagline">Full-Stack Java Developer | Passionate About Building Scalable Web Applications</p>
+        <div class="cta-buttons">
+          <a href="projects.html" class="btn">View Projects</a>
+          <a href="contact.html" class="btn outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="landing-image">
+        <img src="assets/images/self.jpeg" alt="Profile Picture of Pankaj Kangule" loading="lazy" />
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p>© 2025 Pankaj Kangule. All rights reserved.</p>
+  </footer>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+          title="Back to top"
+          style="position: fixed; bottom: 20px; right: 20px; border: none;
+                 background: #2563eb; color: white; border-radius: 50%;
+                 width: 40px; height: 40px; font-size: 20px; cursor: pointer;
+                 box-shadow: 0 2px 6px rgba(0,0,0,0.2);">↑</button>
+</body>
+</html>
